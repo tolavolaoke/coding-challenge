@@ -1,0 +1,30 @@
+body {
+    background-color:white;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
+}
+
+#carousel{
+width: 250px;
+overflow: hidden;
+border: 10px black;
+
+}
+
+ /* the ul is the parent element */
+ ul {  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: center;
+  }
+
+  /* the ul is the child element */
+  li {
+    list-style: none;
+  }
+
+  img{
+    width: 250px;
+    height: 350px;
+ }
