@@ -2,46 +2,52 @@
 <html>
 
 <head>
-    <title>Color Game</title>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <script type="text/javascript" src="app.js"></script>
-    <script src="jquery-3.3.1.min.js"></script>
 
 </head>
 
 <body>
-    <!-- The header -->
+
+    <!-- Carousel -->
     <h1>
-       Slider/ Carousel
+        Carousel
     </h1>
-   
 
     <div id="carousel">
-        <ul>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_01.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_02.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_03.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_04.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_05.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_06.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_07.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_08.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_09.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_10.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_11.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_12.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_13.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_14.png" alt=""></li>
-        <li><img src="/Users/tolaolaoke/development/coding-challenge/assets/option_15.png" alt=""></li>
-    </ul>   
+        <img src="assets/a.png">
     </div>
-    
+
+    <!-- next and previous buttons -->
     <div>
-        <a href="a" id="prev">prev</a>
-        <a href="a" id="next">next</a>
+
+        <button class="prev" onclick="prevImage()">prev</button>
+        <button class="next" onclick="nextImage()">next</button>
+
     </div>
 
 
+
+    <!-- Slider -->
+    <h1>
+        Slider
+    </h1>
+
+    <div id="slider">
+        <div class="orange"></div>
+        <div class="yellow"></div>
+        <div class="green"></div>
+        <div class="blue"></div>
+    </div>
+
+    <!-- next and previous -->
+    <div>
+
+            <button class="prev_btn" onclick="prevSlide()">-</button>
+            <button class="next_btn" onclick="nextSlide()">+</button>
+    
+        </div>
 
 </body>
 

@@ -7,25 +7,77 @@ body {
 #carousel{
 width: 250px;
 overflow: hidden;
-border: 10px black;
-
+border: 10px solid black;
+display: flex;
+flex-direction: row;
+align-content: center;
+margin-left: 100px;
 }
 
- /* the ul is the parent element */
- ul {  
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-content: center;
-  }
-
-  /* the ul is the child element */
-  li {
-    list-style: none;
-  }
-
-  img{
+img{
     width: 250px;
     height: 350px;
  }
 
+button{
+  padding: 20px;
+  border: none;
+  background: #37f;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 23%;
+  cursor: pointer;
+
+}
+
+.next{
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 370px;
+}
+
+.prev{
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 2px;
+
+}
+
+/* Slider */
+
+.slider{
+width: 700px;
+height: 400px;
+background-color: red;
+}
+/* .orange{
+  width: 700px;
+  height: 400px;
+  background-color: orange;
+}
+.yellow{
+  width: 700px;
+  height: 400px;
+  background-color: yellow;
+}
+.green{
+  width: 700px;
+  height: 400px;
+  background-color: green;
+}
+.blue{
+  width: 700px;
+  height: 400px;
+  background-color: blue;
+} */
+
+.next_btn{
+  border-radius: 0px 10px 10px 0px;
+  margin-left: 370px;
+  top: 700px;
+}
+
+.prev_btn{
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 47px;
+  top: 700px;
+}
