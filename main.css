@@ -7,11 +7,11 @@ body {
 #carousel{
 width: 250px;
 overflow: hidden;
-border: 10px solid black;
+border: 1px solid black;
 display: flex;
 flex-direction: row;
 align-content: center;
-margin-left: 100px;
+margin-left: 110px;
 }
 
 img{
@@ -44,31 +44,17 @@ button{
 
 /* Slider */
 
-.slider{
+#slider{
 width: 700px;
 height: 400px;
-background-color: red;
+border: 1px solid black;
+/* background: white; */
+
+-webkit-transition: background 0.7s;
+-moz-transition: background 0.7s;
+transition: background 0.7s;
 }
-/* .orange{
-  width: 700px;
-  height: 400px;
-  background-color: orange;
-}
-.yellow{
-  width: 700px;
-  height: 400px;
-  background-color: yellow;
-}
-.green{
-  width: 700px;
-  height: 400px;
-  background-color: green;
-}
-.blue{
-  width: 700px;
-  height: 400px;
-  background-color: blue;
-} */
+
 
 .next_btn{
   border-radius: 0px 10px 10px 0px;

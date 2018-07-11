@@ -1,7 +1,14 @@
 Experimenting with 
-1. flexbox
-2. carousel
+1. Carousel
 
+2. Slider
+- setTimeout= 
+- calls the fiunction once
+
+
+setInterval= 
+    - method to use when creating a slider
+    - calls the function many times
 
 
 Useful Links;
